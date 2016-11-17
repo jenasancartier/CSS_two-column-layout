@@ -21,10 +21,14 @@ body, html {
 
 #main {
 background:#9c9;
+float: left;
+width: 500px;
 }
 
 #sidebar {
 background:#c9c;
+float: right;
+width: 250px;
 }
 
 #footer {
