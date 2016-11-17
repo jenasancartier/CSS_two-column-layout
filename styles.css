@@ -19,6 +19,18 @@ body, html {
   background: #c99;
 }
 
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#nav li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
 #main {
 background:#9c9;
 float: left;
@@ -26,11 +38,12 @@ width: 500px;
 }
 
 #sidebar {
-background:#c9c;
+background:#99c;
 float: right;
 width: 250px;
 }
 
 #footer {
 background:#cc9;
+clear: both;
 }
